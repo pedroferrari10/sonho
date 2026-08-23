@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>FORMULARIO DE MUSICAS</title>
+		<meta charset="utf-8">
+		<link rel="icon" type="image" href="img/s.jpeg">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>FORMULARIO MUSICAS</h1>
+		<hr>
+		<h3>
+			<main>
+				<form>
+					<label for="nome_musica">Nome da musica:</label>
+					<input type="text" id="nome_musica" name="nome_musica" required pattern="^[A-Za-zÀ-ÿ]+$" placeholder="Digite o nome da musica" title="Digite o nome da musica">
+					<br><br>
+					<label for="nome_cantor">Nome do(a) cantor(a):</label>
+					<input type="text" id="nome_cantor" name="nome_cantor" required pattern="^[A-Za-zÀ-ÿ]+$" placeholder="Digite o nome do cantor" title="Digite o nome do cantor">
+					<br><br>
+					<label for="idade_cantor">idade do cantor:</label>
+					<input type="number" id="idade_cantor" name="idade_cantor" required min="5" max="100" placeholder="Digite a idade do cantor" title="Digite a idade do cantor">
+					<br><br>
+					<label for="anos_musica">ano da musica:</label>
+					<input type="number" id="anos_musica" name="anos_musica" required min="1800" max="2025" placeholder="1800 - 2025" title="Coloque o ano da musica (mínimo no ano de 1800)">
+					<br><br>
+					<legend>Gênero do aluno:</legend>
+						<input type="radio" id="rock" name="tipo_musica" value="rock" required>
+						<label for="masc">rock</label><br>
+						<input type="radio" id="musica_classica" name="tipo_musica" value="musica_classica" required>
+						<label for="masc">musica classica</label><br>
+						<input type="radio" id="jazz" name="tipo_musica" value="jazz" required>
+						<label for="masc">jazz</label><br>
+						<input type="radio" id="mpb" name="tipo_musica" value="mpb" required>
+						<label for="masc">mpb</label><br>
+						<input type="radio" id="forro" name="tipo_musica" value="forro" required>
+						<label for="masc">forró</label><br>
+						<input type="radio" id="funk" name="tipo_musica" value="funk" required>
+						<label for="masc">funk</label><br>
+						<input type="radio" id="heavy-metal" name="tipo_musica" value="heavy-metal" required>
+						<label for="masc">heavy-metal</label><br>
+						<input type="radio" id="trash-metal" name="tipo_musica" value="trash-metal" required>
+						<label for="masc">trash-metal</label><br>
+						<input type="radio" id="outros" name="tipo_musica" value="outros" required>
+						<label for="masc">outros</label><br>
+					<button type="submit">Cadastrar</button>
+					<button type="reset">Limpar</button>
+				</form>
+			</main>
+		</h3>
+		<hr>
+		<h5>Pedro Augusto Ferrari Nalão &copy-Todos os direitos reservados<br>Trabalho acadêmico sem fins lucativos</h5>
+	</body>
+</html>

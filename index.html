@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulario de pacientes</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image" href="img/p.jpeg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>FORMULARIO PACIENTES</h1>
+    <hr>
+    <main>
+        <form>
+            <label for="nome">Nome do paciente:</label>
+            <input type="text" id="nome" name="nome" required pattern="^[A-Za-zÀ-ÿ\s]+$" placeholder="Digite o nome do paciente" title="Digite apenas letras">
+            <br><br>
+            <label for="id_paciente">Id do paciente:</label>
+            <input type="text" id="id_paciente" name="id_paciente" required pattern="^[0-9]{5}$" placeholder="11223" title="digite o id do paciente">
+            <br><br>
+                <legend>Gênero do paciente:</legend>
+                <input type="radio" id="masc" name="genero" value="masculino" required>
+                <label for="masc">Masculino</label><br>
+                <input type="radio" id="fem" name="genero" value="feminino">
+                <label for="fem">Feminino</label><br>
+                <input type="radio" id="outro" name="genero" value="outro">
+                <label for="outro">Outro</label>
+            <br>
+            <label for="nome_medico">Nome do médico:</label>
+            <input type="text" id="nome_medico" name="nome_medico" required pattern="^[A-Za-zÀ-ÿ\s]+$" placeholder="Digite o nome do medico" title="Digite apenas letras">
+            <br><br>
+            <label for="id_medico">Id do médico:</label>
+            <input type="text" id="id_medico" name="id_medico" required pattern="^[0-9]{5}$" placeholder="11223" title="digite o id do medico">
+            <br><br>
+            <label for="comentario">Comentário:</label><br>
+            <textarea id="comentario" cols="40" rows="10" placeholder="Digite aqui o seu comentário sobre o cliente:"></textarea>
+            <br><br>
+            <button type="submit">Cadastrar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </main>
+
+    <footer>
+		<hr>
+        <h5>Pedro Augusto Ferrari Nalão &copy; - Todos os direitos reservados<br>Trabalho acadêmico sem fins lucrativos</h5>
+    </footer>
+</body>
+</html>

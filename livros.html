@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulário Livros</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image" href="img/l.webp">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>FORMULÁRIO DE LIVROS HTML5</h1>
+    <hr>
+    <main>
+        <form>
+            <label for="nome_livro">Nome do livro:</label>
+            <input type="text" id="nome_livro" name="nome_livro" required pattern="^[A-Za-zÀ-ÿ0-9\s.,:\-!?'&]+$" placeholder="Digite o nome do livro" title="Digite o título do livro">
+            <br><br>
+            <label for="id_livro">ID do livro:</label>
+            <input type="text" id="id_livro" name="id_livro" required pattern="^[0-9]{5,9}$" placeholder="112233445" title="Digite apenas números (de 5 a 9 dígitos)">
+            <br><br>
+            <label for="nome_autor">Nome do autor:</label>
+            <input type="text" id="nome_autor" name="nome_autor" required pattern="^[A-Za-zÀ-ÿ\s.]+$$" placeholder="Digite o nome do autor" title="Digite apenas letras e pontos">           <br><br>
+            <label for="id_autor">ID do autor:</label>
+            <input type="text" id="id_autor" name="id_autor" required pattern="^[0-9]{5,9}$" placeholder="666777888" title="Digite apenas números (de 5 a 9 dígitos)">
+            <br><br>
+            <label for="comentario">Comentário:</label><br>
+            <textarea id="comentario" name="comentario" cols="40" rows="10" placeholder="Digite aqui o seu comentário sobre o formulario:"></textarea>
+            <br><br>
+            <button type="submit">Confirmar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </main>
+    </form>
+	<hr>
+        <h5>Pedro Augusto Ferrari Nalão &copy-Todos os direitos reservados<br>Trabalho acadêmico sem fins lucrativos</h5>
+    </footer>
+</body>
+</html>
