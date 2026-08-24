@@ -88,7 +88,7 @@ nav li:last-child a:after{ background: #1abc9c; }
 .container_control {
   position: absolute;
   display: flex;
-  right: -610px; /* Move o container totalmente para a direita */
+  right: -650px; /* Move o container totalmente para a direita */
   width: 100%;
   top: 50px;
   width: 100%;
@@ -116,7 +116,7 @@ h5{
   display: flex;
   left: 300px; /* Move o container totalmente para a direita */
   width: 100%;
-  top: 600px;
+  top: 700px;
   width: 100%;
   gap: 20px;
 }
