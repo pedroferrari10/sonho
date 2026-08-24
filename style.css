@@ -114,9 +114,9 @@ h1{
 h5{
   position: absolute;
   display: flex;
-  left: 200px; /* Move o container totalmente para a direita */
+  justify-content: center;
+  align-items: flex-end;
   width: 100%;
-  top: 600px;
   width: 100%;
   gap: 20px;
 }
