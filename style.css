@@ -114,10 +114,9 @@ h1{
 h5{
   position: absolute;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  top: -100px;
+  left: 300px; 
   width: 100%;
+  top: 600px;
   width: 100%;
   gap: 20px;
 }
