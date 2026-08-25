@@ -90,7 +90,7 @@ nav li:last-child a:after{ background: #1abc9c; }
   display: flex;
   right: -650px; /* Move o container totalmente para a direita */
   width: 100%;
-  top: 10px;
+  top: 50px;
   width: 100%;
   gap: 20px;
 }
@@ -116,7 +116,7 @@ h5{
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  top: 100px;
+  top: -100px;
   width: 100%;
   width: 100%;
   gap: 20px;
